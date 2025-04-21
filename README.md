@@ -1,24 +1,12 @@
-# Dashboard-Widget-Management
-The Dashboard Widget Management interface allows users to customize and organize dashboard widgets based on different categories or metrics such as Security, Compliance, and Operational Performance.
+# React + Vite
 
-Key sections of the interface:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-A search bar to quickly find and filter widgets.
+Currently, two official plugins are available:
 
-Dashboard categories/cards like "CSPM Executive Dashboard" and "Operational Metrics".
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Each card holds individual widget tiles displaying specific metrics with:
+## Expanding the ESLint configuration
 
-Title
-
-Description/value
-
-A delete (✖) icon to remove widgets dynamically.
-
-A prominent “+ Add Widget” button allows new widgets to be added to the dashboard dynamically. 
- Features:
- ✅ Add/remove widgets dynamically
- ✅ Categorized layout with titles 
- ✅ Live search/filter for widgets 
- ✅ Smooth transitions and hover animations 
- ✅ Mobile-friendly responsive design
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
